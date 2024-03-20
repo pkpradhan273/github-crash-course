@@ -3,3 +3,6 @@ public class SimpleJavaProgram {
         System.out.println("Hello, world!");
     }
 }
+function newFeatureAdd() {
+    console.log ('This is a new feat')
+}
