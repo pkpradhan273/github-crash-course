@@ -1,11 +1,13 @@
-const age = 24;
-const name = 'papun pradhan'
-const dob = '29/01/2000'
+public class SimpleProgram {
 
+    // Function to calculate the sum of two numbers
+    public static int add(int num1, int num2) {
+        return num1 + num2;
+    }
 
-function sayName() {
-    console.log('my name is ' + name)
-}
-function newFn(){
-    console.log('hey im a new fn')
+    public static void main(String[] args) {
+        // Calling the add function
+        int result = add(5, 3);
+        System.out.println("The sum is: " + result);
+    }
 }
